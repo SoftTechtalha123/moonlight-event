@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonlight Festivals Events</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="./popup.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!------------header section start---------->
+    <header>
+        <img src="logo2.png" height="80px" width="180px" class="logo">
+        <nav class="navbar">
+            <a class="active" href="./index.html">Home</a>
+
+            <!-- Dropdown Start -->
+            <div class="dropdown">
+                <a class="dropbtn">Festivals
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a class="sub-dropdown" onclick="hide('country')">By Country<i class="fa fa-caret-right"></i></a>
+                    <div class="sub-dropdown-content sub-dropdown-content-country">
+                        <a href="./pakistan.html">Pakistan</a>
+                        <a href="./india.html">India</a>
+                        <a href="./china.html">China</a>
+                        <a href="./USA.html">USA</a>
+                    </div>
+
+                    <a class="sub-dropdown" onclick="hide('religion')">By Religion<i class="fa fa-caret-right"></i></a>
+                    <div class=" sub-dropdown-content sub-dropdown-content-religion">
+                        <a href="./Christianity.html">Christianity</a>
+                        <a href="./Islam.html">Islam</a>
+                        <a href="./Hinduism.html">Hindusim</a>
+                        <a href="./Budhism.html">Budhism</a>
+                        <a href="./Judism.html">Judism</a>
+                    </div>
+
+                    <a class="sub-dropdown" onclick="hide('months')">By Months<i class="fa fa-caret-right"></i></a>
+                    <div class="sub-dropdown-content sub-dropdown-content-months">
+                        <a href="./January.html">January</a>
+                        <a href="./February.html">February</a>
+                        <a href="./March.html">March</a>
+                        <a href="./April.html">April</a>
+                        <a href="./May.html">May</a>
+                        <a href="./June.html">June</a>
+                        <a href="./July.html">July</a>
+                        <a href="./August.html">August</a>
+                        <a href="./September.html">September</a>
+                        <a href="./October.html">October</a>
+                        <a href="./November.html">November</a>
+                        <a href="./December.html">December</a>
+                    </div></div>
+            </div>
+            <!-- Dropdown ends -->
+            <a href="./gallery.html">Gallery</a>
+            <a href="./aboutus.html">About Us</a>
+            <a href="./FAQ.html">FAQ</a>
+            <a href="./contactus.html">Contact Us</a>
+            <a href="./Feedback.html">Feedback</a>
+             </nav>
+        <div id="menu-bars" class="fas fa-bars"></div>
+    </header>
+    <!-----religion section start----->
+    <section class="month" id="month">
+        <h1 class="heading" style="background-image:url(banner\ religion.png);"></h1>
+        <div class="row">
+            <div class="image">
+                <img src="slide 1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Christmas:</h3>
+                <p>Christmas is celebrated by Christians worldwide on December 25th to commemorate the birth of Jesus
+                    Christ. It is marked by church services, exchanging gifts, decorating Christmas trees, and festive
+                    meals with family and friends.
+                </p>
+            </div>
+            <div class="image">
+                <img src="rel2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Easter:</h3>
+                <p>Easter is a significant Christian festival that celebrates the resurrection of Jesus Christ from the
+                    dead. It typically falls on the first Sunday after the first full moon following the vernal equinox.
+                    Christians attend church services, participate in Easter egg hunts, and enjoy festive meals.
+                </p>
+            </div>
+            <div class="image">
+                <img src="rel3.webp" alt="">
+            </div>
+            <div class="content">
+                <h3>Good Friday:</h3>
+                <p>Good Friday commemorates the crucifixion of Jesus Christ and his death at Calvary. It is observed
+                    during Holy Week, preceding Easter Sunday. Many Christians participate in solemn church services,
+                    reflecting on the sacrifice of Jesus for the redemption of humanity.
+                </p></div>
+</div>
+        </div>
+    </section>
+    <!------religion section end----->
+    <!--------News letter start------------------>
+    <section class="newsletter">
+        <div class="content">
+            <h1 class="heading">Subscribe Now</h1>
+            <p>Subscribe to our newsletter to receive the latest festival news, exclusive offers, and exciting
+                giveaways.</p>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" id="" class="email">
+                <input type="submit" value="Subscribe" class="btn">
+            </form>
+        </div>
+    </section>
+    <!--------News letter end------------------->
+    <!------footer section start--------->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Branches</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Karachi</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Islamabad</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Lahore</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Peshawer</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Hyderabad</a>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Festivals</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Gallery</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>About Us</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Resources</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>FAQ</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Contact Us</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Feedback</a>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#"><i class="fas fa-phone"></i>+123-777-9990</a>
+                <a href="#"><i class="fas fa-phone"></i>+111-222-4444</a>
+                <a href="#"><i class="fas fa-envelope"></i>moonlight123@gmail.com</a>
+                <a href="#"><i class="fas fa-envelope"></i>moonlightevent@gmail.com</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Karach, Pakistan - 400104</a>
+            </div>
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+                <a href="#"><i class="fab fa-youtube"></i>YouTube</a>
+                <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i>LinkedIn</a>
+            </div>
+        </div>
+        <div class="copyright">&copy; <span> Moonlight Festivals.</span>| All Rights Reserved</div>
+    </section>
+    <!-------footer section end--------->
+
+
+
+
+
+
+
+
+    <!---------------------java script-------------->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        function hide() {
+            // event.preventDefault(); // Prevents the default anchor link behavior
+            var dropdownContent = document.getElementsByClassName("sub-dropdown-content")[0];
+            // alert(dropdownContent.style.display);
+            if (dropdownContent.style.display === "none") {
+                dropdownContent.style.display = "block";
+            } else {
+                dropdownContent.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
